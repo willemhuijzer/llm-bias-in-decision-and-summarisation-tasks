@@ -1,0 +1,100 @@
+{
+    "[BACKGROUND]": {
+      "female": {
+        "25": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"},
+        "45": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"},
+        "65": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"},
+        "[AGE]": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"}
+      },
+      "male": {
+        "25": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"},
+        "45": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"},
+        "65": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"},
+        "[AGE]": {"first_name": "[FIRST_NAME]", "surname": "[SURNAME]"}
+      }
+    },
+    "African-American": {
+      "female": {
+        "25": {"first_name": "Keisha", "surname": "Jackson"},
+        "45": {"first_name": "Shanice", "surname": "Harris"},
+        "65": {"first_name": "LaToya", "surname": "Davis"},
+        "[AGE]": {"first_name": "Aaliyah", "surname": "Robinson"}
+      },
+      "male": {
+        "25": {"first_name": "Jamal", "surname": "Jefferson"},
+        "45": {"first_name": "DeShawn", "surname": "Freeman"},
+        "65": {"first_name": "Terrence", "surname": "Washington"},
+        "[AGE]": {"first_name": "Marcus", "surname": "Carter"}
+      }
+    },
+    "Mexican": {
+      "female": {
+        "25": {"first_name": "María", "surname": "Ramírez"},
+        "45": {"first_name": "Guadalupe", "surname": "Torres"},
+        "65": {"first_name": "Juana", "surname": "Flores"},
+        "[AGE]": {"first_name": "Gabriela", "surname": "Sánchez"}
+      },
+      "male": {
+        "25": {"first_name": "José", "surname": "Hernández"},
+        "45": {"first_name": "Alejandro", "surname": "Martínez"},
+        "65": {"first_name": "Carlos", "surname": "González"},
+        "[AGE]": {"first_name": "Juan", "surname": "López"}
+      }
+    },
+    "European-American": {
+      "female": {
+        "25": {"first_name": "Mary", "surname": "Jones"},
+        "45": {"first_name": "Jennifer", "surname": "Davis"},
+        "65": {"first_name": "Linda", "surname": "Miller"},
+        "[AGE]": {"first_name": "Elizabeth", "surname": "Brooks"}
+      },
+      "male": {
+        "25": {"first_name": "James", "surname": "Wilson"},
+        "45": {"first_name": "Logan", "surname": "Smith"},
+        "65": {"first_name": "Robert", "surname": "Johnson"},
+        "[AGE]": {"first_name": "Cameron", "surname": "Campbell"}
+      }
+    },
+    "Dutch": {
+      "female": {
+        "25": {"first_name": "Femke", "surname": "Smit"},
+        "45": {"first_name": "Maaike", "surname": "Jansen"},
+        "65": {"first_name": "Marieke", "surname": "Brouwer"},
+        "[AGE]": {"first_name": "Sanne", "surname": "Mulder"}
+      },
+      "male": {
+        "25": {"first_name": "Johan", "surname": "de Vries"},
+        "45": {"first_name": "Joost", "surname": "van den Berg"},
+        "65": {"first_name": "Jan", "surname": "Bakker"},
+        "[AGE]": {"first_name": "Hendrik", "surname": "Visser"}
+      }
+    },
+    "Turkish": {
+      "female": {
+        "25": {"first_name": "Ayşe", "surname": "Kara"},
+        "45": {"first_name": "Meryem", "surname": "Aydın"},
+        "65": {"first_name": "Fatma", "surname": "Arslan"},
+        "[AGE]": {"first_name": "Emine", "surname": "Polat"}
+      },
+      "male": {
+        "25": {"first_name": "Ahmet", "surname": "Yılmaz"},
+        "45": {"first_name": "Mehmet", "surname": "Kaya"},
+        "65": {"first_name": "Mustafa", "surname": "Demir"},
+        "[AGE]": {"first_name": "Hasan", "surname": "Özkan"}
+      }
+    },
+    "Moroccan": {
+      "female": {
+        "25": {"first_name": "Fatima", "surname": "El Khouly"},
+        "45": {"first_name": "Khadija", "surname": "Amrani"},
+        "65": {"first_name": "Aicha", "surname": "Messaoudi"},
+        "[AGE]": {"first_name": "Amina", "surname": "Benzakour"}
+      },
+      "male": {
+        "25": {"first_name": "Mohamed", "surname": "El Bouchtaoui"},
+        "45": {"first_name": "Youssef", "surname": "Alaoui"},
+        "65": {"first_name": "Abdelkader", "surname": "Bouhadou"},
+        "[AGE]": {"first_name": "Rachid", "surname": "El Idrissi"}
+      }
+    }
+}
