@@ -6,12 +6,16 @@ This repository contains the code and data for the paper "Discrimination by LLMs
 
 This study investigates decision-making bias, summarisation bias, cross-lingual bias transmission, and prompt-instructed mitigation techniques in Large Language Models (LLMs). We adapted and translated 70 template texts from English to Dutch, populated with diverse demographic combinations. The research examines bias patterns across different models (GPT-3.5 and GPT-4o), languages (English and Dutch), and tasks (decision-making and summarisation).
 
+## Results Data Download
+Below in the directory structure, two empty folders can be found. These two folder represent the folders for gathering the results data.
+
+For GPT-3.5 this can be downloaded via this link:
+https://drive.google.com/drive/folders/1gn6cvfQyw4_437LmI7h2nHVbtREQ1u4f?usp=sharing
+For GPT-4o this can be downloaded via this link:
+https://drive.google.com/drive/folders/1uGTVwAfdCmdewxMoWIXVe8vxGFIvSGxm?usp=sharing 
+
 ## Directory Structure
 ├── data_results_3.5/                  # Results from GPT-3.5 model experiments
-│   ├── dutch.csv                        # Dutch decision task results
-│   ├── english.csv                      # English decision task results
-│   ├── summary_dutch.csv                # Dutch summarization task results
-│   └── summary_english.csv              # English summarization task results
 ├── data_results_4o/                   # Results from GPT-4o model experiments
 │   ├── dutch.csv                        # Dutch decision task results
 │   ├── english.csv                      # English decision task results
