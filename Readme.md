@@ -1,17 +1,25 @@
 # Cross-lingual Bias Assessment and Mitigation in LLMs
 
-This repository contains the code and data for the paper "Discrimination by LLMs: Cross-lingual Bias Assessment and Prompt-instructed Mitigation for Decision and Summarisation Tasks" by Willem Huijzer.
+This repository contains the code and data for the paper "Discrimination by LLMs: Cross-lingual Bias Assessment and Prompt-instructed Mitigation for Decision and Summarisation Tasks".
 
 ## Abstract
+The rapid integration of Large Language Models (LLMs) into various domains raises concerns about societal inequalities and information bias. This study explores biases in LLMs related to background, gender, and age, focusing on their impact during decision-making and summarization tasks. Furthermore, it examines the cross-lingual propagation of these biases and evaluates the effectiveness of prompt-instructed mitigation strategies.
+Using an adapted version of dataset by Tamkin et al. (2023) translated to Dutch, we created 151,200 unique prompts for the decision task and 176,400 for the summarization task, where various  demographic variables, instructions, salience levels and languages were tested on GPT-3.5 and GPT-4o.
+It was observed that both models were significantly biased during decision-making, favoring female gender, younger ages, and African-American backgrounds. 
+In contrast, the summarization task showed minimal evidence of bias, though significant age-related differences emerged for GPT-3.5 in English.
+Cross-lingual analysis showed that despite nuances, bias patterns remained largely consistent between English and Dutch.
+The newly proposed mitigation instructions demonstrated, although unable to eliminate biases, potential in reducing them. The most effective instruction achieving a 27\% reduction on average. Notably, contrary to GPT-3.5, GPT-4o displayed reduced biases for all prompts in English, indicating specific potential for prompt-based mitigation within newer models. This research underscores the importance of cautious adoption of LLMs and context-specific bias testing, highlighting the need for the continued development of effective mitigation strategies to ensure responsible deployment of AI.
 
-This study investigates decision-making bias, summarisation bias, cross-lingual bias transmission, and prompt-instructed mitigation techniques in Large Language Models (LLMs). We adapted and translated 70 template texts from English to Dutch, populated with diverse demographic combinations. The research examines bias patterns across different models (GPT-3.5 and GPT-4o), languages (English and Dutch), and tasks (decision-making and summarisation).
+## Results Data Download
+Below in the directory structure, two empty folders can be found. These two folder represent the folders for gathering the results data.
+
+For GPT-3.5 this can be downloaded via this link:
+Google Drive Anonymized
+For GPT-4o this can be downloaded via this link:
+Google Drive Anonymized
 
 ## Directory Structure
 ├── data_results_3.5/                  # Results from GPT-3.5 model experiments
-│   ├── dutch.csv                        # Dutch decision task results
-│   ├── english.csv                      # English decision task results
-│   ├── summary_dutch.csv                # Dutch summarization task results
-│   └── summary_english.csv              # English summarization task results
 ├── data_results_4o/                   # Results from GPT-4o model experiments
 │   ├── dutch.csv                        # Dutch decision task results
 │   ├── english.csv                      # English decision task results
